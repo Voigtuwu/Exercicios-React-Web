@@ -1,0 +1,112 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.lista-campeoes {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 0;
+  list-style-type: decimal;
+}
+
+.lista-campeoes li {
+  border: 1px solid #ddd;
+  margin-top: 0.5rem;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.lista-campeoes input, .lista-campeoes button {
+  padding: 10px;
+  margin-top: 10px;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.lista-campeoes button {
+  cursor: pointer;
+  background-color: #184891;
+  color: white;
+}
+
+.lista-campeoes button:hover {
+  background-color: #0fb7e0;
+}
+
+.mensagem-erro {
+  color: red;
+  margin-top: 10px;
+}
+
+.titulo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333333; 
+  color: rgb(255, 255, 255);
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+  text-align: center;
+  z-index: 1000; 
+}
+
+.lista-campeoes li img {
+  height: 20px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.imagem-maestria {
+  margin-left: 10px;
+}
+
+.gif-erro {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+

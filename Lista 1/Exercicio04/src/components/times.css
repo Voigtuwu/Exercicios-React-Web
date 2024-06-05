@@ -1,0 +1,30 @@
+.times-container {
+  padding: 20px;
+}
+
+.titulo-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.titulo {
+  margin-top: 0;
+}
+
+.lista-times {
+  list-style-type: none;
+  padding: 0;
+}
+
+.lista-times li {
+  margin-bottom: 5px; 
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+width: 30px;
+height: 30px;
+margin-right: 10px;
+}
